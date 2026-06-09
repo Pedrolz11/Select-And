@@ -1,0 +1,155 @@
+1- SELECT Quantity AS 'Quantidade Produto',
+   ProductID AS 'Codigo do Produto'
+   FROM OrderDetails
+   WHERE Quantity > 15
+   AND ProductID > 10;
+
+2- SELECT OrderID AS 'Ordem Produto',
+   Quantity AS 'Quantidade Produto'
+   FROM OrderDetails
+   WHERE OrderID < 100
+   AND Quantity > 20
+
+3- SELECT ProductID  AS 'Codigo do Produto'
+   FROM OrderDetails
+   WHERE ProductID >= 5
+   AND ProductID <= 15
+   AND ProductID %2 = 0;
+
+4- SELECT OrderDetailID  AS 'Numeracao do Produto'
+   FROM OrderDetails
+   WHERE OrderDetailID > 50
+   AND OrderDetailID %10 = 0
+
+5- SELECT OrderID AS 'Ordem Produto',
+   Quantity AS 'Quantidade Produto'
+   FROM OrderDetails
+   WHERE OrderID >= 100
+   AND OrderID <= 200
+   AND Quantity < 12;
+
+6- SELECT OrderID AS 'Ordem Produto',
+   Quantity AS 'Quantidade Produto'
+   FROM OrderDetails
+   WHERE OrderID = 300
+   AND Quantity >= 10
+   AND Quantity <= 20;
+
+7- SELECT ProductID AS 'Codigo do Produto',
+   Quantity AS 'Quantidade Produto'
+   FROM OrderDetails
+   WHERE ProductID > 20
+   AND Quantity %2;
+
+8- SELECT OrderDetailID AS 'Numeracao do Produto',
+   ProductID AS 'Codigo do Produto'
+   FROM OrderDetails
+   WHERE ProductID < 10
+   AND OrderDetailID %5 = 0;
+
+9- SELECT Quantity AS 'Quantidade Produto',
+   OrderID AS 'Ordem Produto'
+   FROM OrderDetails
+   WHERE Quantity > 18
+   AND OrderID %10 = 3;
+
+10- SELECT ProductID AS 'Codigo Produto',
+    OrderDetailID AS 'Numeracao do Produto'
+    FROM OrderDetails
+    WHERE ProductID %4 = 0
+    AND OrderDetailID < 200;
+
+11- SELECT OrderID AS 'Ordem Produto',
+    Quantity AS 'Quantidade Produto'
+    FROM OrderDetails
+    WHERE OrderID %3 = 0
+    AND Quantity > 10;
+
+12- SELECT OrderDetailID AS 'Numeracao do Produto',
+    Quantity AS 'Quantidade Produto'
+    FROM OrderDetails
+    WHERE OrderDetailID  %10 = 6
+    AND Quantity >= 20
+    AND Quantity <= 40
+
+13- SELECT OrderID AS 'Ordem Produto',
+    ProductID AS 'Codigo do Produto'
+    FROM OrderDetails
+    WHERE OrderID > 100
+    AND ProductID < 30
+
+14- SELECT Quantity AS 'Quantidade Produto',
+    OrderDetailID AS 'Numeracao do Produto'
+    FROM OrderDetails
+    WHERE Quantity %7 = 0
+    AND OrderDetailID < 300
+
+15- SELECT Quantity AS 'Quantidade Produto',
+    OrderID AS 'Ordem Produto'
+    FROM OrderDetails
+    WHERE Quantity > 25
+    AND OrderID >= 150
+    AND OrderID <= 300;
+
+16- SELECT Quantity AS 'Quantidade Produto',
+    ProductID AS 'Codigo Produto'
+    FROM OrderDetails
+    WHERE Quantity < 20
+    AND ProductID %10 = 5
+
+17- SELECT OrderID AS 'Ordem Produto',
+    ProductID AS 'Codigo Produto'
+    FROM OrderDetails
+    WHERE OrderID > 500
+    AND ProductID %3 = 0;
+
+18- SELECT OrderDetailID AS 'Numeracao do Produto',
+    Quantity AS 'Quantidade Produto'
+    FROM OrderDetails
+    WHERE OrderDetailID >= 100
+    AND OrderDetailID <= 200
+    AND Quantity < 15
+
+19- SELECT ProductID AS 'Codigo Produto',
+    OrderID AS 'Ordem Produto'
+    FROM OrderDetails
+    WHERE ProductID > 10
+    AND OrderID < 50
+
+20- SELECT OrderDetailID AS 'Numeracao do Produto',
+    Quantity AS 'Quantidade Produto'
+    FROM OrderDetails
+    WHERE OrderDetailID < 10
+    AND Quantity %2 = 0;
+
+21- SELECT OrderID AS 'Ordem Produto',
+    ProductID AS 'Codigo Produto'
+    FROM OrderDetails
+    WHERE OrderID >= 300
+    AND OrderID <= 400
+    AND ProductID < 20;
+
+22- SELECT Quantity AS 'Quantidade Produto',
+    OrderDetailID AS 'Numeracao do Produto'
+    FROM OrderDetails
+    WHERE Quantity > 30
+    AND OrderDetailID %10 = 8;
+
+23- SELECT Quantity AS 'Quantidade Produto',
+    OrderID AS 'Ordem Produto'
+    FROM OrderDetails
+    WHERE OrderID %6 = 0
+    AND Quantity >= 15
+    AND Quantity <= 35;
+
+24- SELECT ProductID AS 'Codigo Produto',
+    OrderDetailID AS 'Numeracao do Produto'
+    FROM OrderDetails
+    WHERE ProductID > 25
+    AND OrderDetailID %3 = 0;
+
+25- SELECT OrderDetailID AS 'Numeracao do Produto',
+    OrderID AS 'Ordem Produto'
+    FROM OrderDetails
+    WHERE OrderDetailID > 400
+    AND OrderID %5 = 0;
