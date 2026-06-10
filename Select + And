@@ -153,3 +153,37 @@
     FROM OrderDetails
     WHERE OrderDetailID > 400
     AND OrderID %5 = 0;
+
+26- SELECT Quantity AS 'Quantidade Produto',
+    OrderID AS 'Ordem Produto'
+    FROM OrderDetails
+    WHERE Quantity < 10
+    AND OrderID > 50;
+
+27- SELECT ProductID AS 'Codigo Produto',
+    OrderID AS 'Ordem Produto'
+    FROM OrderDetails
+    WHERE ProductID >= 5
+    AND ProductID <= 20
+    AND OrderID %10 = 7;
+
+28- SELECT OrderID AS 'Ordem Produto',
+    Quantity AS 'Quantidade Produto'
+    FROM OrderDetails
+    WHERE OrderID < 200
+    AND Quantity > 50;
+
+29- SELECT ProductID AS 'Codigo Produto',
+    Quantity AS 'Quantidade Produto'
+    FROM OrderDetails
+    WHERE ProductID %9 = 0
+    AND Quantity >= 10
+    AND Quantity <= 20;
+
+30- SELECT Quantity AS 'Quantidade Produto',
+    ProductID AS 'Codigo Produto'
+    FROM OrderDetails
+    WHERE Quantity > 50
+    AND ProductID < 30;
+
+31- 
